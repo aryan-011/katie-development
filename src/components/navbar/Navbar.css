@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+     url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+    }
+    @font-face {
+        font-family: "NunitoNorm";
+        src: local("Nunito"),
+         url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+        font-weight: normal;
+        }
+
+.navbar {
+  padding: 15px;
+  font-size: 1.1em;
+}
+.nav-link{
+    color: black;
+    font-family: 'Nunito';
+
+font-size: 1.3vw;
+line-height: 27px;
+
+}
+.nav-item {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 0%;
+}
+.katie {
+color: #4A4A4A;
+  text-decoration: none;
+  font-family: Nunito;
+
+  font-size: 3vw;
+  line-height: 65px;
+  text-align: center;
+  margin-left: 30%;
+}
+
+@media (min-width: 746px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-custom .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+  }
+  .navbar-expand-custom > .container {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+}

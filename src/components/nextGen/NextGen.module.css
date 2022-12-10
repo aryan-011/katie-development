@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+     url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+    }
+    @font-face {
+        font-family: "NunitoNorm";
+        src: local("Nunito"),
+         url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+        font-weight: normal;
+        }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container>h3{
+    font-family: Nunito;
+    font-size: 3.75vw;
+    line-height: 65px;
+}
+.container>h3>span{
+    color: #EB6A96;
+}
+.container>h4{
+    font-family: NunitoNorm;
+    font-size: 1.56vw;
+    line-height: 27px;
+}
+.imgg{
+    margin-left: 8%;
+}
