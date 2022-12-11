@@ -15,6 +15,8 @@
 
 }
 .header_intro {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-bottom: 50px;
     height: fit-content;
@@ -28,14 +30,14 @@
 }
 .left > h1{
     font-family: 'Nunito';
-    font-size: 5.625vw;
+    font-size: 7.2rem;
     line-height: 100.4%;
     text-align: left;
 }
 .left > h2{
     font-family: 'Nunito';
     color: black;
-    font-size: 5vw;
+    font-size: 6.4rem;
     line-height: 100.4%;
     text-align: left;
 
@@ -44,7 +46,7 @@
 color: #4B4B4B;
 font-family: NunitoNorm;
 font-weight: 400;
-font-size: 2.3vw;
+font-size: 3.6rem;
 line-height: 44px;
 letter-spacing: 0em;
 text-align: left;
@@ -64,16 +66,16 @@ color: black;
     font-size: 1.1em;
 }
 .signUp{
-padding: 8px 32px;
+padding: 0.8rem 3.2rem;
 width: fit-content;
-gap: 12px;
 background: #62E0F0;
 box-shadow: 0px 2px 6px rgba(107, 55, 74, 0.25);
 border-radius: 10px;
 border-width : 0;
 font-family: 'Nunito';
-font-size: 1.25vw;
+font-size: 1.6rem;
 line-height: 22px;
+margin: 2rem 0 0 0;
 }
 .header_intro .box img{
     width: 40%;
@@ -96,6 +98,9 @@ line-height: 22px;
     }
     .signUp{
         font-size: 2.6vw;
+    }
+    .left>p{
+        text-align: center;
     }
 }
 @media (max-width: 500px){

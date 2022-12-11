@@ -9,7 +9,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-custom">
         <div className="container-fluid">
               <ul className="nav-item">
-                <NavLink className="katie" aria-current="page"  to="/">
+                <NavLink className="katie nav-link" aria-current="page"  to="/">
                   KATIE
                 </NavLink>
               </ul>

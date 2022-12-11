@@ -19,7 +19,7 @@
     color: black;
     font-family: 'Nunito';
 
-font-size: 1.3vw;
+font-size: 1.8rem;
 line-height: 27px;
 
 }
@@ -33,13 +33,13 @@ color: #4A4A4A;
   text-decoration: none;
   font-family: Nunito;
 
-  font-size: 3vw;
+  font-size: 4.8rem;
   line-height: 65px;
   text-align: center;
-  margin-left: 30%;
+  /* margin-left: 30%; */
 }
 
-@media (min-width: 746px) {
+@media (min-width: 546px) {
   .navbar-expand-custom {
     flex-direction: row;
     flex-wrap: nowrap;

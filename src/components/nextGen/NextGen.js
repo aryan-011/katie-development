@@ -7,7 +7,7 @@ function NextGen(props) {
     <div className={`${styles.container}`}>
 
         <h3>Design your <span>Next-Gen</span> Portfolio</h3>
-        <h4>A one-stop shop for your digital presence across the internet </h4>
+        <h4>A one-stop shop for your digital presence across the internet! </h4>
         <div className={`${styles.imgg}`}> 
             <img src={image} alt="img" />
         </div>

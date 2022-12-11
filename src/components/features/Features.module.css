@@ -1,0 +1,12 @@
+
+.FeatureCardContainer{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 10% 0 10% 0;
+}
+@media (max-width: 746px) {
+.FeatureCardContainer{
+    flex-direction: column;
+}
+}
