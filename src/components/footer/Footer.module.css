@@ -10,7 +10,7 @@
     margin-bottom: 0px;
     bottom: 0px;
     padding-top: 20px;
-    height: 400px;
+    height: 350px;
 }
 
 .FooterBox .FooterWrap {
@@ -81,6 +81,9 @@ margin: 2rem 0 0 0;
     align-items:flex-end;
     justify-content: flex-end;
 }
+.h3{
+    font-size: 5rem;
+}
 
 @media  screen and (max-width: 1421px) {
     .FooterBox .footer-logo{
@@ -106,7 +109,6 @@ margin: 2rem 0 0 0;
         height: 32.42px;
     }
     .FooterBox .unstyledlist {
-        border-left: 1.31041px solid #07A0E1;
         padding-left: 8px;
     }
 }
@@ -127,7 +129,6 @@ margin: 2rem 0 0 0;
         padding-left: 0px;
     }
     .FooterBox .unstyledlist {
-        border-left: 1.1041px solid #07A0E1;
         padding-left: 6px;
     }
 }

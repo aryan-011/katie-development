@@ -39,3 +39,12 @@ img{
     height: 40%;
 
 }
+@media (max-width:746px){
+
+    .container>h4{
+        font-size: 4rem;
+    }
+    .container>h3{
+        font-size: 6rem;
+    }
+}

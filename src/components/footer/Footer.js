@@ -16,7 +16,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className={`${styles.Col3}`}>
-                        <h3>KATIE</h3>
+                        <h3 className={`${styles.h3}`}>KATIE</h3>
                         <Link to='/waitlist' >
                         <button className={`${styles.button}`}  >
                             Join the Waitlist

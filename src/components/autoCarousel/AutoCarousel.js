@@ -20,7 +20,7 @@ function AutoCarousel() {
 
     return (
         <div className={`${styles.AutoCarouselContainer}`}>
-          <h3>Work with <span>World Class Brands</span></h3>
+          <h3 className={`${styles.h3}`}>Work with <span className={`${styles.span}`}>World Class Brands</span></h3>
           <div className={`${styles.LayersContainer}`}>
             <div className={`${styles.bottomLayer}`}>
             

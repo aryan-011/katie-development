@@ -10,6 +10,7 @@
     width: 228.11245727539062px;
     border-radius: 20px;
     overflow: hidden;
+    margin: 10% 0 10% 0;
 }
 .AnimatedCardContainer{
 
@@ -62,4 +63,9 @@ z-index: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:1024px){
+    .AnimatedCardTextContainer{
+        font-size: 3.5rem;
+    }
 }

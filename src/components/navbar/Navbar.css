@@ -40,6 +40,9 @@ color: #4A4A4A;
 }
 
 @media (min-width: 546px) {
+  .nav-link{
+    /* font-size: ; */
+  }
   .navbar-expand-custom {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -64,5 +67,14 @@ color: #4A4A4A;
   }
   .navbar-expand-custom .navbar-toggler {
     display: none;
+  }
+}
+
+@media (max-width:1000px){
+  .nav-link{
+    font-size: 3rem;
+  }
+  .katie{
+    font-size: 6rem;
   }
 }
