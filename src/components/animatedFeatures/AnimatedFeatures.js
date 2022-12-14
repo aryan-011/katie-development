@@ -2,7 +2,7 @@ import {React,useState,useEffect} from 'react'
 import  styles from './AnimatedFeatures.module.css'
 import img from '../landing-page/Frame 10.png'
 import AnimatedCard from '../animatedCard/AnimatedCard'
-import { checkTargetForNewValues } from 'framer-motion'
+
 const heading=['Manage everything at one place','Generate Invoices','Track Payment']
 // const animate={y:[0,60,60,60,60,0]}
 // const notAnimate={y:[0,0,0,0,0,0]}
