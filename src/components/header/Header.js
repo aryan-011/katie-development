@@ -4,8 +4,6 @@ import image from './Asset 2.png'
 import styles from "./Header.module.css"
 import Navbar from '../navbar/Navbar.js'
 import { useState,useEffect} from 'react'
-import {useInterval} from 'react-use'
-import styled,{keyframes} from 'styled-components'
 import "../../fonts/Nunito/Nunito-VariableFont_wght.ttf"
 const images = [image1,image];
 const heading=['community','technology','information']
@@ -56,16 +54,5 @@ useEffect(() => {
   )
 }
 
-const animation= keyframes`
-0%{
-  opacity: 0;
-};
-100%{
-  opacity: 1;
-};`
-const Wrapper= styled.span`
-display:inline-block;
-opacity:0;
-animation-name:${animation};
-`
+
 export default Header

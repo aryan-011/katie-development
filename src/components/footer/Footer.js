@@ -7,12 +7,12 @@ function Footer() {
              <div className={`${styles.FooterWrap}`}>
                     <div className={`${styles.Col1}`}>
                         <ul className={`${styles.unstyledlist}`}>
-                            <li><a href='#'>Contact US</a></li>
+                            <li><Link to='/contactus' >Contact US</Link></li>
                         </ul>
                     </div>
                     <div className={`${styles.Col2}`}>
                         <ul className={`${styles.unstyledlist}`}>
-                            <li><a href='#'>About Us</a></li>
+                            <li><Link to='aboutus'>About Us</Link></li>
                         </ul>
                     </div>
                     <div className={`${styles.Col3}`}>

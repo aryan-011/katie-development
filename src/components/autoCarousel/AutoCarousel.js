@@ -1,10 +1,8 @@
-import { getDefaultNormalizer } from '@testing-library/react'
-import React, { useEffect, useMemo } from 'react'
+
+import React, { useEffect} from 'react'
 import { useState } from 'react'
-import { useInterval } from 'react-use'
 import styled,{keyframes} from 'styled-components'
 import styles from './AutoCarousel.module.css'
-let data=['We value you regardless your size of distribution','Endorse the brands you love','Money-back guarante']
 function AutoCarousel() {
     const [data,setData]= useState(['We value you regardless your  size of distribution','Endorse the brands you love','Money-back guarante']);
 
