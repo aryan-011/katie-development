@@ -6,6 +6,7 @@ html {
 body {
   background: url('./Untitled\ \(6\).svg');
   background-size: 240%;
+  background-repeat: no-repeat;
   background-position-x: -900px;
   background-position-y: -900px;
   font-size: 1.6rem;
