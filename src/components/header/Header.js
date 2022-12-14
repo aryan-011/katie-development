@@ -15,38 +15,26 @@ function Header(props) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [index,setIndex]=useState(0);
-  const [play,setPlay]=useState(false)
-  useInterval(()=>{
-    
-    if (index===2){
-      setIndex(0)
-      setCurrentIndex(1)
-    }
-    else{
-      setIndex(prevIndex=>prevIndex+1)
-      setCurrentIndex(0)
-    }
-  },
-  play?2000:null)
-//   useEffect(() => {
-//     const intervalId = setInterval(() => {
-//         setCurrentIndex(prevIndex =>(currentIndex==1?0:prevIndex+1));
-//     }, 5000)
-    
-//     return () => clearInterval(intervalId);
-// })
+  const [image,setImage]=useState(false)
+
 useEffect(() => {
   const intId = setInterval(() => {
     if (index===2){
       setIndex(0)
-      setCurrentIndex(1)
+      if (image===false)
+      {
+        setCurrentIndex(1)
+      }
+      else{
+        setCurrentIndex(0)
+      }
+      setImage(!image)
     }
     else{
       setIndex(index+1)
-      setCurrentIndex(0)
+
     }
-    setPlay(true)
-  }, 2000)
+  }, 1500)
   
   return () => clearInterval(intId);
 })
@@ -58,7 +46,7 @@ useEffect(() => {
             <div className={`${styles.left}`}>
               <h2>A Creator </h2>
               <h1>Powerhouse</h1>
-              <p>Empowering creators with the power of <Wrapper >{heading[index]}</Wrapper></p>
+              <p>Empowering creators with the power of <span >{heading[index]}</span></p>
               <button className={`${styles.signUp}`}>Sign Up</button>
             </div>
             <img src={images[currentIndex]} alt="img" />
@@ -69,10 +57,12 @@ useEffect(() => {
 }
 
 const animation= keyframes`
-0%{opacity:0;};
-25%{opacity:1;};
-75%{opacity: 1;};
-100%{opacity:0;};`
+0%{
+  opacity: 0;
+};
+100%{
+  opacity: 1;
+};`
 const Wrapper= styled.span`
 display:inline-block;
 opacity:0;

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+     url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+.AnimatedContainer{
+    height: 229.93008422851562px;
+    width: 228.11245727539062px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.AnimatedCardContainer{
+
+    display: flex;
+    flex-direction: column;
+}
+.imgg{
+    position: relative;
+    height: auto;
+    z-index: 9;
+}
+.pink{
+    position: relative;
+    /* top: 9%;
+    left: -62%; */
+    height: 72.70516967773438px;
+width: 169.03952026367188px;
+border-radius: 6px;
+background: #FF9DC0;
+z-index: 2;
+}
+.yellow{
+    position: relative;
+    /* top: -34%;
+    right: -65%; */
+    height: 72.70516967773438px;
+width: 169.03952026367188px;
+border-radius: 5px;
+background: #FEFFD7;
+z-index: 5;
+}
+.blue{
+    position: relative;
+    /* top: 16%;
+    right: -88%; */
+    height: 72.70516967773438px;
+width: 169.03952026367188px;
+background: #83D8E3;
+border-radius: 22px;
+z-index: 0;
+
+}
+.AnimatedCardTextContainer
+{
+    margin-top: 4%;
+    width: 229px;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

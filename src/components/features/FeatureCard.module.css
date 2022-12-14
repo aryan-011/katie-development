@@ -3,13 +3,14 @@
     src: local("Nunito"),
      url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
     font-weight: medium;
-    }
+}
 .card{
     display: flex;
     flex-direction: column;
     width: 300px;
     justify-content: center;
     align-items: center;
+    transition: transform 2s ease-out;
 }
 .logoContainer
 {
@@ -18,6 +19,7 @@
     border-radius: 50%;
     background-image: linear-gradient(84.09deg, #F4D8CC 6.69%, #FFF8E6 93.31%);
     margin: 3%;
+    transition: transform 2s ease-out;
 }
 .title{
     font-family: NunitoNorm;
@@ -25,7 +27,7 @@
     text-align: center;
 }
 .card:hover .logoContainer {
-        animation: rotate 1s linear;
+    transform: rotate(360deg);
 }
 @keyframes rotate{
     0%{

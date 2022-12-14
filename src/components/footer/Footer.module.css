@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+     url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+    }
+.FooterBox {
+    font-family: Nunito;
+    background-color: white;
+    margin-bottom: 0px;
+    bottom: 0px;
+    padding-top: 20px;
+    height: 400px;
+}
+
+.FooterBox .FooterWrap {
+    display: flex;
+    line-height: 38.79px;
+    font-weight: 400;
+}
+
+.FooterBox .unstyledlist {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.FooterBox a {
+    text-decoration: none;
+    color:
+        #0D2630;
+}
+
+.FooterBox .footerimg {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.FooterBox .footer-logo{
+
+    /* width: 100px;
+    height: 100px; */
+    width: 155%;
+}
+
+.FooterBox .handles {
+    width:  26%;
+    height: 26%;
+    padding: 9px;
+}
+
+.FooterBox .handleWrapper{
+    margin: 2px;
+    margin-left: 0px;
+}
+.FooterBox .facebook{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.Col1,.Col2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.button{
+    padding: 0.8rem 3.2rem;
+width: fit-content;
+background: #B1F6FF;
+box-shadow: 0px 2px 6px rgba(107, 55, 74, 0.25);
+border-radius: 10px;
+border-width : 0;
+font-family: 'Nunito';
+font-size: 1.6rem;
+line-height: 22px;
+margin: 2rem 0 0 0;
+}
+.Col3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -40%;
+    margin-top: 5%;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+@media  screen and (max-width: 1421px) {
+    .FooterBox .footer-logo{
+        width: 100%;
+    }
+
+    .FooterBox .handles {
+        width:  38.43px;
+        height: 38.42px;
+    }
+}
+@media  screen and (max-width: 722px){
+
+    .FooterBox .footer-logo{
+        width: 90%;
+    }
+    .FooterBox .FooterWrap{
+        font-size:  12px;
+        line-height: 21.79px;
+    }
+    .FooterBox .handles {
+        width:  33.43px;
+        height: 32.42px;
+    }
+    .FooterBox .unstyledlist {
+        border-left: 1.31041px solid #07A0E1;
+        padding-left: 8px;
+    }
+}
+@media  screen and (max-width: 546px){
+    .FooterBox .footerimg{
+        margin-left: 25px;
+    }
+    .FooterBox .footer-logo{
+        width: 60%;
+    }
+    .FooterBox .FooterWrap{
+        font-size:  8px;;
+    }
+    .FooterBox .handles {
+        width:  23.43px;
+        height: 22.42px;
+        padding: 5px;
+        padding-left: 0px;
+    }
+    .FooterBox .unstyledlist {
+        border-left: 1.1041px solid #07A0E1;
+        padding-left: 6px;
+    }
+}

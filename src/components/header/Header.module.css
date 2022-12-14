@@ -55,10 +55,21 @@ text-align: left;
 .left>p>span{
 
 color: black;
-animation-duration:2s;
+opacity: 0;
+animation-duration: 1500ms;
+animation-name: fadein;
 animation-fill-mode: forwards;
 animation-iteration-count: infinite;
+transition: all 0.5s ease-out;
 
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .header_intro .box .left{
     width: 36%; 
