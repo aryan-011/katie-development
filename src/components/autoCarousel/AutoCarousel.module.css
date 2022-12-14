@@ -32,7 +32,7 @@ transform-style: preserve-3d;
 }
 .TopLayer{
     width: 50vw;
-    height: 40vh;
+    height: 60vh;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
@@ -44,7 +44,7 @@ transform-style: preserve-3d;
 }
 .bottomLayer{
     width: 40vw;
-    height: 30vh;
+    height: 50vh;
     background: linear-gradient(84.09deg, #F2CFC0 6.69%, #F0E3C0 93.31%);
 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
