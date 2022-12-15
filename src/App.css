@@ -4,20 +4,16 @@ html {
   
 }
 body {
-  background: url('./Untitled\ \(6\).svg');
-  background-size: 240%;
+  background: url('./Katie_public_bg_V2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 240%;
   background-repeat: no-repeat;
   background-position-x: -900px;
-  background-position-y: -900px;
+  background-position-y: -900px; */
   font-size: 1.6rem;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;

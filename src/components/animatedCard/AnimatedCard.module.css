@@ -4,6 +4,12 @@
      url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
     font-weight: bold;
     }
+    @font-face {
+        font-family: "NunitoNorm";
+        src: local("Nunito"),
+         url("../../fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+        font-weight: normal;
+        }
 
 .AnimatedContainer{
     height: 229.93008422851562px;
@@ -66,6 +72,13 @@ z-index: 0;
 }
 @media (max-width:1024px){
     .AnimatedCardTextContainer{
-        font-size: 3.5rem;
+        font-family: NunitoNorm;
+        font-size: 4.5rem;
+    }
+}
+@media (max-width:700px){
+    .AnimatedCardTextContainer{
+        font-family: NunitoNorm;
+        font-size: 5.5rem;
     }
 }
